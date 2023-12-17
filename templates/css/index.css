@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #0D1310;
+  color:#EEE7DC;
+}
+
+.topnav {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #1e2f27;
+}
+
+.topnav a {
+  float: left;
+  color: #EEE7DC;
+  text-align: center;
+  padding: 14px 16px;
+  width: 100%;
+  text-decoration: none;
+  font-size: 17px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #0D1310;
+  border-top: none;
+  border-bottom: none;
+
+}
+.topnav a:hover {
+  background-color: #EEE7DC;
+  color: #0D1310;
+}
+
+.topnav a.active {
+  background-color: #3EB489;
+  color: #EEE7DC;
+}
+
+h1,h2,h3 {
+  color: #EEE7DC;
+}
+
+h2 {
+  padding: 15px;
+}
+
+#results, #watched, #recent-releases {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 80px;
+  
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+span {
+  border-color:#3EB489;
+  border-style: solid;
+  border-width: 3px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+  background-color: #1e2f27;
+  transition: border-color .75s, opacity .75s;
+  margin-bottom: 20px;
+}
+
+span:hover {
+  border-color: #EEE7DC;
+  opacity: .7;
+}
+
+strong {
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+input[type="text"] {
+  width: 600px;
+  height: 30px;
+  font-size: 25px;
+}
+
+form{
+  display: flex;
+  vertical-align: middle;
+}
+#back {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+#back:hover {
+  color: #3EB489;
+}
+
+button {
+  background-color: #1e2f27;
+  font-size: medium;
+  font-weight: bold;
+  color: #EEE7DC;
+  border-color: #3EB489;
+  border-radius: 10px;
+  border-width: 3px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: auto;
+}
+
+button:hover{
+  background-color: #3EB489;
+  border-color: #1e2f27;
+}
+
+#rating {
+  margin-left: auto;
+  margin-right: auto;
+  grid-template-columns: 1fr
+}
+
+input[id = "rate"] {
+  width: 40px;
+  height: 20px;
+  margin-top: 12px;
+  margin-left: auto;
+  color: #EEE7DC;
+  background-color: #0D1310;
+  border: #3EB489;
+  border-radius: 10px;
+  border-width: 3px;
+}
+
+#title-link {
+  color: #EEE7DC;
+}
+
+#title-link:hover {
+  color: #3EB489;
+}

@@ -1,0 +1,8 @@
+TEAM MEMBERS: Jonathan Morgan 117949094
+
+SITE DESCRIPTION:
+   This app allows you to search movies, which are retireved using an API, rate them and add them to the database. All movies and ratings will shown in the watchlist tab. 
+   The Home tab contains recently released movies that can also be rated and added to watchlist.
+
+   If you click on the title of the movie, you will be redirected to the movies IMBD page.
+
